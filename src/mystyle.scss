@@ -1,0 +1,17 @@
+$header: red;
+$footer: blue;
+$body: yellow;
+h1 {
+  font: {
+    size: 72px;
+    family: sans-serif;
+  }
+  $mycolor: green;
+  color: $mycolor;
+}
+h2 {
+  color: $footer;
+}
+h3 {
+  color: $header;
+}
